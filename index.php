@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Power monitoring system</title>
-    <!-- code by ANIKET SARDAR -->
+    
 
     <link href="vendors/normalize-css/normalize.css" rel="stylesheet">
     <!-- Bootstrap -->
@@ -32,7 +32,7 @@
   </head>
   <body>
 
-<!-- code by ANIKET SARDAR -->
+
       <header>
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
@@ -42,7 +42,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <!-- code by ANIKET SARDAR -->
+              
               <a class="navbar-brand" href=" ">Smart Monitor</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
@@ -68,7 +68,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <div class="panel panel-primary">
-              <!-- code by ANIKET SARDAR -->
+             
               <div class="panel-heading">
                 <h3>Stats</h3>
               </div>
@@ -89,7 +89,7 @@
               </div>
               <div class="panel-body">
                 <div class="row">
-                  <!-- code by ANIKET SARDAR -->
+                  
                   <div class="col-sm-8">
                   <a class="btn btn-primary btn-lg mode" data-mode='1' id="mode1">Mode 1</a>
                 </div>
@@ -101,13 +101,13 @@
                 </div>
                 </div>
 
-                <!-- code by ANIKET SARDAR -->
+                
                 <div class="row">
                   <div class="col-sm-8">
                   <a class="btn btn-primary btn-lg mode" data-mode="3" id="mode3">Mode 3</a>
                 </div>
                 </div>
-                <!-- code by ANIKET SARDAR -->
+                
 
                 <div class="row">
                   <div class="col-sm-8">
@@ -125,7 +125,7 @@
               </div>
               <div class="panel-body">
                 <div class="row">
-                  <!-- code by ANIKET SARDAR -->
+                  
                   <div class="col-sm-6">
                     <i class="fa fa-lightbulb-o"></i> Bulb `1`
                   </div>
@@ -142,7 +142,7 @@
                     <a class="btn btn-warning devC" data-dev="2" data-status="off">off </a>
                   </div>
                 </div>
-                <!-- code by ANIKET SARDAR -->
+                
 
                 <div class="row">
                   <div class="col-sm-6">
@@ -156,7 +156,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-4">
-            <!-- code by ANIKET SARDAR -->
+            
             <div class="panel panel-default">
               <div class="panel-heading">
                 Total
@@ -170,8 +170,7 @@
       </div>
 
 
-      <!-- code by ANIKET SARDAR -->
-
+     
     <!-- jQuery -->
     <script src="vendors/jquery/jquery.js"></script>
     <!-- Bootstrap -->
@@ -181,7 +180,7 @@
     <!-- CanvasJS -->
     <script src="vendors/canvasjs/jquery.canvasjs.min.js" charset="utf-8"></script>
     <!-- Custom js -->
-    <!-- code by ANIKET SARDAR -->
+    
     <script src="script.js" charset="utf-8"></script>
 
   </body>
