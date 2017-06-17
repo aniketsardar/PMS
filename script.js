@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-  // <!-- code by ANIKET SARDAR -->
-  var dataPoints = [];
+    var dataPoints = [];
   $.getJSON("app/get-data.php", function(data) {
 
       for (var i = 0; i < data.length; i++) {
@@ -11,8 +10,7 @@ $(document).ready(function(){
     console.log(dataPoints);
 
   $(function () {
-    // <!-- code by ANIKET SARDAR -->
-//
+   
   	//Better to construct options first and then pass it as a parameter
   	var options = {
   		exportEnabled: true,
@@ -87,8 +85,7 @@ $(document).ready(function(){
       default: location.reload();
 
     }
-    // <!-- code by ANIKET SARDAR -->
-  }
+      }
 
   $(document).on('click', '.mode', function(){
     var this_mode = $(this).data('mode');
