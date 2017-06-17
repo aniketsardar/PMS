@@ -1,4 +1,4 @@
-<!-- code by ANIKET SARDAR -->
+
 <?php
 
 require_once('app/db-connect.php');
